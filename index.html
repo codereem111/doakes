@@ -1,293 +1,447 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="DOAKES Coin, a community-powered memecoin built around the theme of crypto’s good cop, championing transparency, integrity, and community.">
-    <meta name="keywords" content="DOAKES, DOAKES Coin, crypto, memecoin, blockchain, honesty, integrity, community">
-    <meta name="author" content="DOAKES">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="DOAKES Coin, a community-powered memecoin built around the theme of crypto’s good cop, championing transparency, integrity, and community."
+    />
+    <meta
+      name="keywords"
+      content="DOAKES, DOAKES Coin, crypto, memecoin, blockchain, honesty, integrity, community"
+    />
+    <meta name="author" content="DOAKES" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1"
+    />
 
     <title>DOAKES Story – Honesty on the Blockchain</title>
 
-    <link href="images/logo.svg" type="image/png" rel="icon">
+    <link href="images/logo.svg" type="image/png" rel="icon" />
 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link href="css/aos.css" rel="stylesheet" type="text/css" />
     <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
     <style>
-      .hero-banner {
-          margin-top: 1rem;
-          margin-bottom: 0;
+      .header_area {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        background: #000; /* Assuming the header has a background to avoid transparency issues */
       }
       .main-wrapper {
-          padding-top: 0;
+        padding-top: 80px; /* Adjust this value based on your header's height */
+      }
+      .hero-banner {
+        margin-top: 0; /* Removing the previous margin-top */
+        margin-bottom: 0;
+      }
+      .hero-banner img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
       }
     </style>
-</head>
-<body>
-    
+  </head>
+  <body>
     <header class="header_area">
-        <div class="custom_container">
-            <nav class="main_nav">
-                <div class="nav_logo">
-                    <a href="#">
-                        <img src="images/logo.svg" alt="">
-                    </a>
-                </div>
-                <div class="nav_links d-none d-lg-block">
-                    <ul>
-                        <li><a href="#" data-scroll="about">About</a></li>
-                        <li><a href="#" data-scroll="phases">Phases</a></li>
-                        <li><a href="#" data-scroll="mission">Mission</a></li>
-                        <li><a href="#" data-scroll="faq">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="nav_btn d-none d-lg-block">
-                    <a href="#">Join the Watch</a>
-                </div>
-                <div class="d-lg-none">
-                    <div class="hamburger-menu">
-                        <span class="line-top"></span>
-                        <span class="line-center"></span>
-                        <span class="line-bottom"></span>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="ofcavas-menu d-lg-none">
-            <div class="custom_container">
-                <div class="ofcanvas_body">
-                    <div class="nav_links">
-                        <ul>
-                            <li><a href="#" data-scroll="about">About</a></li>
-                            <li><a href="#" data-scroll="phases">Phases</a></li>
-                            <li><a href="#" data-scroll="mission">Mission</a></li>
-                            <li><a href="#" data-scroll="faq">FAQ</a></li>
-                        </ul>
-                    </div>
-                    <div class="nav_btn">
-                        <a href="#">Join the Watch</a>
-                    </div>
-                </div>
+      <div class="custom_container">
+        <nav class="main_nav">
+          <div class="nav_logo">
+            <a href="#">
+              <img src="images/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="nav_links d-none d-lg-block">
+            <ul>
+              <li><a href="#" data-scroll="about">About</a></li>
+              <li><a href="#" data-scroll="phases">Phases</a></li>
+              <li><a href="#" data-scroll="mission">Mission</a></li>
+              <li><a href="#" data-scroll="faq">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="nav_btn d-none d-lg-block">
+            <a href="#">Join the Watch</a>
+          </div>
+          <div class="d-lg-none">
+            <div class="hamburger-menu">
+              <span class="line-top"></span>
+              <span class="line-center"></span>
+              <span class="line-bottom"></span>
             </div>
+          </div>
+        </nav>
+      </div>
+      <div class="ofcavas-menu d-lg-none">
+        <div class="custom_container">
+          <div class="ofcanvas_body">
+            <div class="nav_links">
+              <ul>
+                <li><a href="#" data-scroll="about">About</a></li>
+                <li><a href="#" data-scroll="phases">Phases</a></li>
+                <li><a href="#" data-scroll="mission">Mission</a></li>
+                <li><a href="#" data-scroll="faq">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="nav_btn">
+              <a href="#">Join the Watch</a>
+            </div>
+          </div>
         </div>
+      </div>
     </header>
 
-    <div class="container-fluid p-0 hero-banner mt-5">
-        <img src="WhatsApp Image 2025-08-11 at 17.59.15_b9492de8.jpg" alt="DOAKES coin banner with Miami's greatest cop" class="img-fluid w-100">
+    <div class="container-fluid p-0 mt-5 hero-banner">
+      <img
+        src="WhatsApp Image 2025-08-11 at 17.59.15_b9492de8.jpg"
+        alt="DOAKES coin banner with Miami's greatest cop"
+        class="img-fluid w-100"
+      />
     </div>
 
     <main class="overflow-hidden main-wrapper">
-
-        <section class="hero_area">
-            <div class="custom_container">
-               <div class="hero_main">
-                   <div class="hero_overlay">
-                       <div class="hero_cnt" data-aos="fade-right">
-                           <h2>The DOAKES Story<span>!</span></h2>
-                           <p>In the wild streets of crypto, where shady plays and rug pulls hide in the shadows, most people are left wondering — who can you really trust? That’s where DOAKES comes in. Inspired by the legendary Sergeant James Doakes — known for his sharp instincts, fearless energy, and zero tolerance for lies — DOAKES Coin brings the spirit of an honest cop to the blockchain. We’re not promising magic beans or mystery roadmaps. We’re here for integrity, vigilance, and fun. The mission is simple: build a memecoin that stands for trust and truth, while keeping the hype high and the vibes unmatched. With DOAKES, every holder becomes part of the watch. We’re the neighborhood patrol of the blockchain — keeping things fair, exposing the BS, and making the space fun again.</p>
-                       </div>
-                   </div>
-               </div>
+      <section class="hero_area">
+        <div class="custom_container">
+          <div class="hero_main">
+            <div class="hero_overlay">
+              <div class="hero_cnt" data-aos="fade-right">
+                <h2>The DOAKES Story<span>!</span></h2>
+                <p>
+                  In the wild streets of crypto, where shady plays and rug pulls
+                  hide in the shadows, most people are left wondering — who can
+                  you really trust? That’s where DOAKES comes in. Inspired by
+                  the legendary Sergeant James Doakes — known for his sharp
+                  instincts, fearless energy, and zero tolerance for lies —
+                  DOAKES Coin brings the spirit of an honest cop to the
+                  blockchain. We’re not promising magic beans or mystery
+                  roadmaps. We’re here for integrity, vigilance, and fun. The
+                  mission is simple: build a memecoin that stands for trust and
+                  truth, while keeping the hype high and the vibes unmatched.
+                  With DOAKES, every holder becomes part of the watch. We’re the
+                  neighborhood patrol of the blockchain — keeping things fair,
+                  exposing the BS, and making the space fun again.
+                </p>
+              </div>
             </div>
-        </section>
-        <div class="hero_animation d-md-none">
-            <div class="custom_container">
-                <img src="WhatsApp Image 2025-08-10 at 22.48.59_ec32e93b.jpg" alt="Sergeant James Doakes holding a drink.">
-            </div>
+          </div>
         </div>
-        <section class="about_area" id="about">
-            <div class="custom_container">
-                <div class="about_main">
-                    <div class="about_overlay">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <div class="about_item" data-aos="fade-right">
-                                    <img src="WhatsApp Image 2025-08-10 at 22.49.00_c1ee63d6.jpg" alt="Sergeant James Doakes in a blue polo shirt.">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="about_cnt" data-aos="fade-left">
-                                    <h3>What is DOAKES Coin?</h3>
-                                    <p>DOAKES Coin is a community-powered memecoin built around the theme of crypto’s good cop. We thrive on meme culture, but the foundation is built on three non-negotiables: 1. Transparency – No shady tokenomics, no hidden plays. 2. Integrity – We protect our holders and keep the project clean. 3. Community First – Every voice matters. Every member counts. DOAKES isn’t just another coin. It’s a meme movement with a purpose.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      </section>
+      <div class="hero_animation d-md-none">
+        <div class="custom_container">
+          <img
+            src="WhatsApp Image 2025-08-10 at 22.48.59_ec32e93b.jpg"
+            alt="Sergeant James Doakes holding a drink."
+          />
+        </div>
+      </div>
+      <section class="about_area" id="about">
+        <div class="custom_container">
+          <div class="about_main">
+            <div class="about_overlay">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="about_item" data-aos="fade-right">
+                    <img
+                      src="WhatsApp Image 2025-08-10 at 22.49.00_c1ee63d6.jpg"
+                      alt="Sergeant James Doakes in a blue polo shirt."
+                    />
+                  </div>
                 </div>
-            </div>
-        </section>
-        <section class="choose_area" id="why-doakes">
-            <div class="custom_container">
-                <div class="choose_main">
-                    <div class="choose_overlay">
-                        <div class="choose_title text-center" data-aos="fade-up">
-                            <h3>Why DOAKES?</h3>
-                        </div>
-                        <div class="choose_item">
-                            <div class="choose_card" data-aos="zoom-in-right">
-                                <h4>The Honest Cop Angle</h4>
-                                <p>Makes DOAKES different from the rest.</p>
-                            </div>
-                            <div class="choose_card" data-aos="zoom-in-up">
-                                <h4>Meme Gold</h4>
-                                <p>The name, the look, and the vibe are all meme gold.</p>
-                            </div>
-                            <div class="choose_card" data-aos="zoom-in-left">
-                                <h4>Recognizable Culture</h4>
-                                <p>We’re not chasing trends — we’re building a recognizable culture.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-6">
+                  <div class="about_cnt" data-aos="fade-left">
+                    <h3>What is DOAKES Coin?</h3>
+                    <p>
+                      DOAKES Coin is a community-powered memecoin built around
+                      the theme of crypto’s good cop. We thrive on meme culture,
+                      but the foundation is built on three non-negotiables: 1.
+                      Transparency – No shady tokenomics, no hidden plays. 2.
+                      Integrity – We protect our holders and keep the project
+                      clean. 3. Community First – Every voice matters. Every
+                      member counts. DOAKES isn’t just another coin. It’s a meme
+                      movement with a purpose.
+                    </p>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <section class="roadmap_area" id="phases">
-            <div class="custom_container">
-                <div class="roadmap_main">
-                    <div class="roadmap_title text-center" data-aos="zoom-in-up">
-                        <h3>Our Phases</h3>
-                    </div>
-                    <div class="roadmap_item">
-                         <div class="roadmap_content_image text-center my-5">
-                            <img src="WhatsApp Image 2025-08-10 at 22.48.59_15016588.jpg" alt="Sergeant James Doakes smiling subtly.">
-                        </div>
-                        <div class="roadmap_content1">
-                            <div class="roadmap_cnt" data-aos="zoom-in-right">
-                                <h4>Phase 1 – The Watch Begins 🔍</h4>
-                                <ul>
-                                    <li>Launch Telegram & X with “on patrol” branding</li>
-                                    <li>Build the early DOAKES community through memes & organic shills</li>
-                                    <li>Transparent LP lock, no hidden tricks</li>
-                                    <li>First meme drops and community engagement</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="roadmap_content2">
-                            <div class="roadmap_cnt" data-aos="zoom-in-left">
-                                <h4>Phase 2 – Patrol & Protect 🚓</h4>
-                                <ul>
-                                    <li>Meme collaborations with creators and influencers</li>
-                                    <li>Holder contests and watch-party events</li>
-                                    <li>Cross-shills with other trusted meme communities</li>
-                                    <li>Weekly “Case Files” — public updates on progress</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="roadmap_content3">
-                            <div class="roadmap_cnt" data-aos="zoom-in-right">
-                                <h4>Phase 3 – Global Takeover 🌎</h4>
-                                <ul>
-                                    <li>“DOAKES is Watching” meme blitz across social platforms</li>
-                                    <li>Trending pushes on X with coordinated shills</li>
-                                    <li>Listings on major trackers and CEX outreach</li>
-                                    <li>DOAKES merch for the most loyal watch members</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="roadmap_content4">
-                            <div class="roadmap_cnt" data-aos="zoom-in-left">
-                                <h4>Operation 0:</h4>
-                                <ul>
-                                    <li>Here we build hype, secure trust and lock down early believers before a big launch. This is a critical moment where we set the stage for a flawless infiltration into the market.</li>
-                                    <li>Social media push: we build active channels, monitor chatter, engage the community with activities, we keep them hyped and involved.</li>
-                                    <li>Meme raids, generate FOMO and anticipation. We need to reach people outside of telegram. So Reddit YouTube, instagram.</li>
-                                    <li>Launch website and spread it on socials.</li>
-                                    <li>Pre sale raid to reward earlycomers, exclusive early access tokens. Pours into liquidity pool.</li>
-                                    <li>Liquidity pool is locked straight after pre sales.</li>
-                                    <li>We countdown to the real launch and create even more FOMO and hype. Real launch will be marked as a full raid.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="roadmap_content5">
-                            <div class="roadmap_cnt" data-aos="zoom-in-right">
-                                <h4>Operation 1:</h4>
-                                <ul>
-                                    <li>This is about maintaining traction and growing.</li>
-                                    <li>We start engaging the community with weekly briefing and competitions.</li>
-                                    <li>We also start AMA sessions to clear doubt and boost morale/trust.</li>
-                                    <li>Keep maintaining growth with socials. Telegram count reaches 1k.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="roadmap_content6">
-                            <div class="roadmap_cnt" data-aos="zoom-in-left">
-                                <h4>Operation 3:</h4>
-                                <ul>
-                                    <li>This is the fun phase and is when we reach maturity.</li>
-                                    <li>We aim for big CEX listings like Coinbase.</li>
-                                    <li>Increase influencer raids. We can grow this so big we might even get Erik king himself as a cameo.</li>
-                                    <li>Since our whole premise is about being a crypto used for good when we reach this stage we can start donating to causes from our profits.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+          </div>
+        </div>
+      </section>
+      <section class="choose_area" id="why-doakes">
+        <div class="custom_container">
+          <div class="choose_main">
+            <div class="choose_overlay">
+              <div class="choose_title text-center" data-aos="fade-up">
+                <h3>Why DOAKES?</h3>
+              </div>
+              <div class="choose_item">
+                <div class="choose_card" data-aos="zoom-in-right">
+                  <h4>The Honest Cop Angle</h4>
+                  <p>Makes DOAKES different from the rest.</p>
                 </div>
-            </div>
-        </section>
-        <section class="faq_area" id="faq">
-            <div class="custom_container">
-                <div class="faq_main">
-                    <div class="faq_overlay">
-                        <div class="faq_title text-center" data-aos="fade-up">
-                            <h3>Got Questions<span>?</span> We<span>'</span>ve Got Answers<span>!</span></h3>
-                        </div>
-                        <div class="faq_item">
-                            <div class="accordian_item" data-aos="fade-up">
-                                <div class="accordian_title">
-                                    <h4>Is DOAKES just another meme coin?</h4>
-                                    <img src="images/plus.svg" alt="">
-                                </div>
-                                <div class="accordian_inner">
-                                    <p>Negative. This isn't some pump and dump coin. DOAKES is a badge of honor with a cultural meme behind it and a community that is sworn to push it higher. Here we are on the mission to take back the reputation of memecoins. Join the department and let us rise above the carnage.</p>
-                                </div>
-                            </div>
-                            <div class="accordian_item" data-aos="fade-up">
-                                <div class="accordian_title">
-                                    <h4>What is DOAKES?</h4>
-                                    <img src="images/plus.svg" alt="">
-                                </div>
-                                <div class="accordian_inner">
-                                    <p>DOAKES is the crypto cop that’s here to clean up the meme-coin streets. Inspired by Miami’s most honest cop known for his killer lines…and killer looks, DOAKES is hunting down boring projects and weak hands. Here we HODL and thrive. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="choose_card" data-aos="zoom-in-up">
+                  <h4>Meme Gold</h4>
+                  <p>The name, the look, and the vibe are all meme gold.</p>
                 </div>
+                <div class="choose_card" data-aos="zoom-in-left">
+                  <h4>Recognizable Culture</h4>
+                  <p>
+                    We’re not chasing trends — we’re building a recognizable
+                    culture.
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="roadmap_area" id="phases">
+        <div class="custom_container">
+          <div class="roadmap_main">
+            <div class="roadmap_title text-center" data-aos="zoom-in-up">
+              <h3>Our Phases</h3>
+            </div>
+            <div class="roadmap_item">
+              <div class="roadmap_content_image text-center my-5">
+                <img
+                  src="WhatsApp Image 2025-08-10 at 22.48.59_15016588.jpg"
+                  alt="Sergeant James Doakes smiling subtly."
+                />
+              </div>
+              <div class="roadmap_content1">
+                <div class="roadmap_cnt" data-aos="zoom-in-right">
+                  <h4>Phase 1 – The Watch Begins 🔍</h4>
+                  <ul>
+                    <li>Launch Telegram & X with “on patrol” branding</li>
+                    <li>
+                      Build the early DOAKES community through memes & organic
+                      shills
+                    </li>
+                    <li>Transparent LP lock, no hidden tricks</li>
+                    <li>First meme drops and community engagement</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="roadmap_content2">
+                <div class="roadmap_cnt" data-aos="zoom-in-left">
+                  <h4>Phase 2 – Patrol & Protect 🚓</h4>
+                  <ul>
+                    <li>Meme collaborations with creators and influencers</li>
+                    <li>Holder contests and watch-party events</li>
+                    <li>Cross-shills with other trusted meme communities</li>
+                    <li>Weekly “Case Files” — public updates on progress</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="roadmap_content3">
+                <div class="roadmap_cnt" data-aos="zoom-in-right">
+                  <h4>Phase 3 – Global Takeover 🌎</h4>
+                  <ul>
+                    <li>
+                      “DOAKES is Watching” meme blitz across social platforms
+                    </li>
+                    <li>Trending pushes on X with coordinated shills</li>
+                    <li>Listings on major trackers and CEX outreach</li>
+                    <li>DOAKES merch for the most loyal watch members</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="roadmap_content4">
+                <div class="roadmap_cnt" data-aos="zoom-in-left">
+                  <h4>Operation 0:</h4>
+                  <ul>
+                    <li>
+                      Here we build hype, secure trust and lock down early
+                      believers before a big launch. This is a critical moment
+                      where we set the stage for a flawless infiltration into
+                      the market.
+                    </li>
+                    <li>
+                      Social media push: we build active channels, monitor
+                      chatter, engage the community with activities, we keep
+                      them hyped and involved.
+                    </li>
+                    <li>
+                      Meme raids, generate FOMO and anticipation. We need to
+                      reach people outside of telegram. So Reddit YouTube,
+                      instagram.
+                    </li>
+                    <li>Launch website and spread it on socials.</li>
+                    <li>
+                      Pre sale raid to reward earlycomers, exclusive early
+                      access tokens. Pours into liquidity pool.
+                    </li>
+                    <li>Liquidity pool is locked straight after pre sales.</li>
+                    <li>
+                      We countdown to the real launch and create even more FOMO
+                      and hype. Real launch will be marked as a full raid.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="roadmap_content5">
+                <div class="roadmap_cnt" data-aos="zoom-in-right">
+                  <h4>Operation 1:</h4>
+                  <ul>
+                    <li>This is about maintaining traction and growing.</li>
+                    <li>
+                      We start engaging the community with weekly briefing and
+                      competitions.
+                    </li>
+                    <li>
+                      We also start AMA sessions to clear doubt and boost
+                      morale/trust.
+                    </li>
+                    <li>
+                      Keep maintaining growth with socials. Telegram count
+                      reaches 1k.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="roadmap_content6">
+                <div class="roadmap_cnt" data-aos="zoom-in-left">
+                  <h4>Operation 2:</h4>
+                  <ul>
+                    <li>Expansion phase.</li>
+                    <li>
+                      We aim to get listed on major trackers like CoinGecko, boosting credibility.
+                    </li>
+                    <li>
+                      Locking in partnerships with meme artists, creators and other projects.
+                    </li>
+                    <li>
+                      Create a bot for Telegram which acts as a price tracker along with other features.
+                    </li>
+                    <li>
+                      Hold flash giveaways to reward loyal members who HODL.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="roadmap_content6">
+                <div class="roadmap_cnt" data-aos="zoom-in-left">
+                  <h4>Operation 3:</h4>
+                  <ul>
+                    <li>
+                      This is the fun phase and is when we reach maturity.
+                    </li>
+                    <li>We aim for big CEX listings like Coinbase.</li>
+                    <li>
+                      Increase influencer raids. We can grow this so big we
+                      might even get Erik king himself as a cameo.
+                    </li>
+                    <li>
+                      Since our whole premise is about being a crypto used for
+                      good when we reach this stage we can start donating to
+                      causes from our profits.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="faq_area" id="faq">
+        <div class="custom_container">
+          <div class="faq_main">
+            <div class="faq_overlay">
+              <div class="faq_title text-center" data-aos="fade-up">
+                <h3>
+                  Got Questions<span>?</span> We<span>'</span>ve Got
+                  Answers<span>!</span>
+                </h3>
+              </div>
+              <div class="faq_item">
+                <div class="accordian_item" data-aos="fade-up">
+                  <div class="accordian_title">
+                    <h4>Is DOAKES just another meme coin?</h4>
+                    <img src="images/plus.svg" alt="" />
+                  </div>
+                  <div class="accordian_inner">
+                    <p>
+                      Negative. This isn't some pump and dump coin. DOAKES is a
+                      badge of honor with a cultural meme behind it and a
+                      community that is sworn to push it higher. Here we are on
+                      the mission to take back the reputation of memecoins. Join
+                      the department and let us rise above the carnage.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordian_item" data-aos="fade-up">
+                  <div class="accordian_title">
+                    <h4>What is DOAKES?</h4>
+                    <img src="images/plus.svg" alt="" />
+                  </div>
+                  <div class="accordian_inner">
+                    <p>
+                      DOAKES is the crypto cop that’s here to clean up the
+                      meme-coin streets. Inspired by Miami’s most honest cop
+                      known for his killer lines…and killer looks, DOAKES is
+                      hunting down boring projects and weak hands. Here we HODL
+                      and thrive.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
-        </main>
-
+    </main>
 
     <footer class="footer_area" id="mission">
-        <div class="custom_container">
-            <div class="footer_main">
-                <div class="footer_title text-center">
-                     <img src="WhatsApp Image 2025-08-10 at 22.49.00_f15c0660.jpg" alt="Sergeant James Doakes in a black shirt and blue blazer." data-aos="zoom-in-up">
-                    <h3 data-aos="fade-up">Our Mission</h3>
-                    <p data-aos="fade-up">To prove a memecoin can be built on truth, transparency, and trust without losing its hype. To show that the good guys can still win. And to remind the market that DOAKES is always watching.</p>
-                </div> 
-                <div class="footer_bottom" data-aos="fade-up">
-                    <p>Join the Watch:</p>
-                    <ul class="d-flex align-items-center gap-4" data-aos="fade-left">
-                        <a href="https://t.me/DOAKEScoin" target="_blank" class="text-decoration-none">
-                            <i class="fab fa-telegram-plane fs-1 text-light"></i>
-                        </a>
-                        
-                        <a href="https://x.com/doakescoin?s=21" target="_blank" class="text-decoration-none">
-                            <i class="fab fa-x-twitter fs-1 text-light"></i>
-                        </a>
-                       
-                    </ul>
-                </div>
-            </div>
+      <div class="custom_container">
+        <div class="footer_main">
+          <div class="footer_title text-center">
+            <img
+              src="WhatsApp Image 2025-08-10 at 22.49.00_f15c0660.jpg"
+              alt="Sergeant James Doakes in a black shirt and blue blazer."
+              data-aos="zoom-in-up"
+            />
+            <h3 data-aos="fade-up">Our Mission</h3>
+            <p data-aos="fade-up">
+              To prove a memecoin can be built on truth, transparency, and trust
+              without losing its hype. To show that the good guys can still win.
+              And to remind the market that DOAKES is always watching.
+            </p>
+          </div>
+          <div class="footer_bottom" data-aos="fade-up">
+            <p>Join the Watch:</p>
+            <ul class="d-flex align-items-center gap-4" data-aos="fade-left">
+              <a
+                href="https://t.me/DOAKEScoin"
+                target="_blank"
+                class="text-decoration-none"
+              >
+                <i class="fab fa-telegram-plane fs-1 text-light"></i>
+              </a>
+
+              <a
+                href="https://x.com/doakescoin?s=21"
+                target="_blank"
+                class="text-decoration-none"
+              >
+                <i class="fab fa-x-twitter fs-1 text-light"></i>
+              </a>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
     <a href="#" class="back-to-top"> &#129137; </a>
 
@@ -297,18 +451,21 @@
     <script src="js/owl.carousel.js"></script>
     <script src="js/smartScroll.js"></script>
     <script src="js/main.js"></script>
-     <script>
-        (function ($) {
-            "use strict";
-            smartScroll.init({
-                speed: 700, 
-                addActive: false, 
-                activeClass: "active", 
-                offset: 80
-            }, function () {
-                console.log("callback");
-            });
-        })(jQuery);
+    <script>
+      (function ($) {
+        "use strict";
+        smartScroll.init(
+          {
+            speed: 700,
+            addActive: false,
+            activeClass: "active",
+            offset: 80,
+          },
+          function () {
+            console.log("callback");
+          }
+        );
+      })(jQuery);
     </script>
-</body>
+  </body>
 </html>
