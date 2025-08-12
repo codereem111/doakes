@@ -35,25 +35,43 @@
     <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
     <style>
+      body {
+        font-family: 'Spicy Rice', sans-serif;
+        font-size: 18px; /* Increased font size */
+      }
       .header_area {
         position: fixed;
         width: 100%;
         top: 0;
         z-index: 1000;
-        background: #000; /* Assuming the header has a background to avoid transparency issues */
+        background: #000;
       }
       .main-wrapper {
-        padding-top: 80px; /* Adjust this value based on your header's height */
+        padding-top: 0;
       }
       .hero-banner {
-        margin-top: 0; /* Removing the previous margin-top */
+        margin-top: 80px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         margin-bottom: 0;
       }
       .hero-banner img {
         width: 100%;
         height: auto;
-        object-fit: cover;
+        object-fit: contain;
+      }
+      h2 {
+        font-size: 2.5rem; /* Increased heading size */
+      }
+      h3 {
+        font-size: 2rem; /* Increased heading size */
+      }
+      h4 {
+        font-size: 1.5rem; /* Increased heading size */
       }
     </style>
   </head>
@@ -105,7 +123,7 @@
       </div>
     </header>
 
-    <div class="container-fluid p-0 mt-5 hero-banner">
+    <div class="container-fluid p-0 hero-banner">
       <img
         src="WhatsApp Image 2025-08-11 at 17.59.15_b9492de8.jpg"
         alt="DOAKES coin banner with Miami's greatest cop"
